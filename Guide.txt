@@ -35,6 +35,8 @@ Okay, here's a concise guide to setting up your KY-039 heartbeat sensor with the
     ```
 
 3.  **Run the code:** `python your_script_name.py`
+      In case of error: " You must be root to..." run:
+      sudo mv /usr/lib/python3.11/EXTERNALLY-MANAGED /usr/lib/python3.11/EXTERNALLY-MANAGED.old
 
 4.  **Observe Output:** You should see analog values changing when you touch the KY-039 sensor.
 
